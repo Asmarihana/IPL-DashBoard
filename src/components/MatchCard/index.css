@@ -1,0 +1,24 @@
+.match-win {
+  color: #18ed66;
+}
+.match-loss {
+  color: #e31a1a;
+}
+.recent-matches {
+  list-style-type: none;
+  color: white;
+  border: 1px solid #ffffff;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 567px) {
+  .recent-matches {
+    width: 90%;
+  }
+}

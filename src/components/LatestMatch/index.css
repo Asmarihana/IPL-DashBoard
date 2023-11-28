@@ -1,0 +1,15 @@
+.latest-match {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h1 {
+  text-align: start;
+}
